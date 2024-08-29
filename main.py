@@ -20,7 +20,8 @@ Bot = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start(bot, update):
-    await update.reply("""Hi there! I'm the Telegram Group Guardian bot. I'm here to help you keep your group clean and safe for everyone. Here are the main features I offer:
+    await update.reply("""Hi {mention}
+    I'm the Telegram Group Guardian bot. I'm here to help you keep your group clean and safe for everyone. Here are the main features I offer:
 
 • **Word Slagging:** I can detect and remove inappropriate language messages in your group. 
 
