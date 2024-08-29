@@ -28,7 +28,8 @@ async def start(bot, update):
 
 To get started, simply add me to your Telegram group and promote me to admin 
 
-Thanks for using Telegram Group Guardian! Let's keep your group safe and respectful. Powered by @about_tosuu""")
+Thanks for using Telegram Group Guardian! Let's keep your group safe and respectful. Powered by @about_tosuu
+InlineKeyboardButton(text=_["Add me to you group ➕"], url="https://t.me/nothing_guardian_bot?startgroup=true")""")
 
 #-----------------------------------------------------------------
 
