@@ -28,7 +28,7 @@ async def start(bot, update):
 
 To get started, simply add me to your Telegram group and promote me to admin 
 
-Thanks for using Telegram Group Guardian! Let's keep your group safe and respectful. Powered by @NACBOTS""")
+Thanks for using Telegram Group Guardian! Let's keep your group safe and respectful. Powered by @about_tosuu""")
 
 #-----------------------------------------------------------------
 
