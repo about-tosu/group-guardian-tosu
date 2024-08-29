@@ -20,12 +20,12 @@ Bot = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start(bot, update):
-    await update.reply("""Hi {mention}
+    await update.reply("""𝙃𝙞
     I'm the Telegram Group Guardian bot. I'm here to help you keep your group clean and safe for everyone. Here are the main features I offer:
 
-• **Word Slagging:** I can detect and remove inappropriate language messages in your group. 
+• **𝙒𝙤𝙧𝙙 𝙎𝙡𝙖𝙜𝙜𝙞𝙣𝙜:** I can detect and remove inappropriate language messages in your group. 
 
-• **Image Filtering:** I can also automatically detect and remove pornographic or NSFW images in your group. 
+• **𝙄𝙢𝙖𝙜𝙚 𝙁𝙞𝙡𝙩𝙚𝙧𝙞𝙣𝙜:** I can also automatically detect and remove pornographic or NSFW images in your group. 
 
 To get started, simply add me to your Telegram group and promote me to admin 
 
