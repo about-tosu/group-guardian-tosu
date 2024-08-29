@@ -30,13 +30,13 @@ To use Group Guardianship, simply add the bot to your Telegram group and promote
 1. Clone this repository to your local machine using:
 
     ```
-    git clone https://github.com/nacbots/group-guardian
+    git clone https://github.com/about-tosu/group-guardian-tosu
     ```
 
 2. Install the required dependencies using pip:
 
     ```
-    cd group-guardian
+     
     pip install -r requirements.txt
     ```
 
