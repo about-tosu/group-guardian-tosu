@@ -21,7 +21,7 @@ Bot = Client(
 @Bot.on_message(filters.private & filters.command("start"))
 async def start(bot, update):
     await update.reply("""𝙃𝙞
-    I'm the Telegram Group Guardian bot. I'm here to help you keep your group clean and safe for everyone. Here are the main features I offer:
+I'm the Telegram Group Guardian bot. I'm here to help you keep your group clean and safe for everyone. Here are the main features I offer:
 
 • **𝙒𝙤𝙧𝙙 𝙎𝙡𝙖𝙜𝙜𝙞𝙣𝙜:** I can detect and remove inappropriate language messages in your group. 
 
@@ -33,7 +33,6 @@ Thanks for using Telegram Group Guardian! Let's keep your group safe and respect
 
 **𝙐𝙥𝙙𝙖𝙩𝙚𝙨** »»————> @about_tosuu""")
     
-BUTTON = [[InlineKeyboardButton("+ Add me in group +", url="http://t.me/Nothing_guardian_bot?startgroup=s&admin=delete_messages")]]
 #-----------------------------------------------------------------
 
 @Bot.on_message(filters.group & filters.photo)
