@@ -32,6 +32,8 @@ To get started, simply add me to your Telegram group and promote me to admin
 Thanks for using Telegram Group Guardian! Let's keep your group safe and respectful. 
 
 **𝙐𝙥𝙙𝙖𝙩𝙚𝙨** »»————> @about_tosuu""")
+    
+BUTTON = [[InlineKeyboardButton("+ Add me in group +", url="http://t.me/Nothing_guardian_bot?startgroup=s&admin=delete_messages")]]
 #-----------------------------------------------------------------
 
 @Bot.on_message(filters.group & filters.photo)
