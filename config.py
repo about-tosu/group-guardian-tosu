@@ -1,6 +1,6 @@
 import os
 
-BOT_TOKEN = "7249639518:AAF995Hp9mxS2qu9SrnZe88NA5MofC_V3VI"
-API_ID = "24620300"
-API_HASH = "9a098f01aa56c836f2e34aee4b7ef963"
-SPOILER_MODE = "true"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", ""))
+API_HASH = os.environ.get("API_HASH", "")
+SPOILER_MODE = bool(os.environ.get("SPOILER_MODE", True))
